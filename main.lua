@@ -38,7 +38,7 @@ local function ask_gpt(userId)
     }
 
     local body = json.encode({
-        model = "gpt-4.1-nano",
+        model = "gpt-4.1-nano", -- GPT 모델
         messages = conversations[userId],
         max_tokens = 500
     })
@@ -61,17 +61,17 @@ client:on('ready', function()
     local commands = {
         {
             name = "업타임",
-            description = "호랑지니 김치니의 가동 시간",
+            description = "[봇 이름]의 가동 시간",
             type = 1,
         },
         {
             name = "정보",
-            description = "호랑지니 김치니의 정보",
+            description = "[봇 이름]의 정보",
             type = 1,
         },
         {
             name = "ping",
-            description = "호랑지니 김치니의 연결 상태 확인",
+            description = "[봇 이름]의 연결 상태 확인",
             type = 1,
         }
     }
