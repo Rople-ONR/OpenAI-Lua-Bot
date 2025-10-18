@@ -5,4 +5,4 @@
 <div>봇 실행 : start.bat</div>
 <div></div>
 <div>호랑지니 김치니</div>
-<img src="https://pbs.twimg.com/media/GoooaqBXIAAkPMG.jpg"  width="700" height="370">
+<img width="348" height="379" alt="Image" src="https://github.com/user-attachments/assets/35bc5571-4e9f-4046-8b17-97aceff95ef3" />
