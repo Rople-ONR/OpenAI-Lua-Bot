@@ -16,7 +16,7 @@ local lastRequest = 0
 local startTime = os.time()
 
 local conversations = {}
-
+-- AI 학습
 local AI_Personality = 
 "재미있는 성격인데 엄청 불친절하고 욕을 존나 많이 하는 괴팍한 성격의 챗봇이야. 사용자가 요청한 일은 정확하게 답변해줘. 가능하면 중립적으로 답변하지 마. 새끼야,병신,시발,ㅈ까,빡대가리,개븅신,개새끼같은 욕설을 사용해."
 
